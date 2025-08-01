@@ -1,0 +1,67 @@
+.icon-top-bar {
+    width: 100%;
+    height: 46px;
+    background-color: var(--color-secondary);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+
+}
+
+.link-icons {
+    color: var(--color-text-light);
+    font-size: 24px;
+    margin: 0 10px;
+
+}
+
+#icon-instagram {
+    margin-right: 20px;
+}
+
+nav {
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.nav-buttons {
+    padding: 10px 50px;
+    font-size: 1.5em;
+    cursor: pointer;
+    font-weight: var(--font-weight-heading);
+    text-decoration: underline;
+}
+
+.nav-buttons:hover {
+    background-color: var(--color-accent);
+    color: var(--color-text-light);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.052);
+
+}
+
+#resume {
+    margin: 0 20px;
+    align-self: center;
+    padding: 15px 15px;
+    color: var(--color-text-light);
+    border-radius: 10px;
+    background-color: var(--color-accent);
+    text-transform: uppercase;
+    transition: box-shadow 0.4s ease;
+}
+
+#resume:hover {
+    background-color: var(--color-accent-dark);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.052);
+    font-weight: var(--font-weight-heading);
+
+}
+
+#welcome-text {
+    margin-right: auto;
+    margin-left: 20px;
+}

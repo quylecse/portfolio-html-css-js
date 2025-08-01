@@ -1,0 +1,14 @@
+my-portfolio/
+├── index.html
+├── css/
+│   ├── style.css
+│   └── _variables.css
+│   └── _reset.css
+│   └── _header.css
+│   └── ... (các file css cho từng component)
+├── js/
+│   └── main.js
+├── assets/
+│   ├── images/
+│   │   └── profile.jpg
+│   └── icons/

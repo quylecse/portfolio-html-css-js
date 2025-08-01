@@ -1,0 +1,59 @@
+:root {
+    --color-base: #FDF0D5;
+    /* 60% */
+    --color-secondary: #003049;
+    /* 30% */
+    --color-accent: #C1121F;
+    /* 10% */
+    --color-accent-dark: #780000;
+    --color-secondary-light: #669BBC;
+    --color-text-light: #ffffff;
+    --color-text-dark: #003049;
+
+    --font-heading: 'Montserrat', sans-serif;
+    --font-body: 'Lora', serif;
+
+    --font-weight-heading: 500;
+    --font-weight-bold: 700;
+    --font-weight-normal: 400;
+
+    --font-size-base: 16px;
+    --font-size-heading: 2rem;
+    --font-size-subheading: 1.5rem;
+    --font-size-small: 0.875rem;
+}
+
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--color-base);
+    color: var(--color-text-dark);
+
+}
+
+header {
+    color: rgb(255, 255, 255);
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-heading);
+}
+
+a {
+    color: var(--color-accent);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--color-accent-dark);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: var(--font-heading);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
