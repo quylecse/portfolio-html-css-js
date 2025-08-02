@@ -270,9 +270,123 @@ main {
 
 .to-projects:hover {
     background-color: var(--color-accent-dark);
-    /* hoặc một màu đậm hơn */
-    color: #fff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     transform: scale(1.05);
     transition: all 0.3s ease;
+}
+
+#education {
+    display: flex;
+    flex-direction: column;
+    /* xếp dọc */
+    align-items: center;
+    /* căn giữa ngang */
+    justify-content: center;
+
+}
+
+
+.edu-photo {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 100px;
+    background-image: url(/assets/images/education.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.edu-photo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Tạo lớp phủ màu đen với độ trong suốt 50% */
+    border-radius: 10px;
+    z-index: 1;
+    /* Đảm bảo lớp phủ nằm trên ảnh */
+}
+
+.edu-photo>* {
+
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+}
+
+.edu-photo-title {
+    font-size: 3em;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+
+}
+
+.education-intro {
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    padding: 2vh 10vw;
+}
+
+.education-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+.edu-section {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #2c3e50;
+}
+
+.education-timeline {
+    border-left: 3px solid #3498db;
+    padding-left: 25px;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: -12px;
+    top: 5px;
+    width: 18px;
+    height: 18px;
+    background-color: #3498db;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 6px rgba(52, 152, 219, 0.6);
+}
+
+.timeline-content {
+    padding-left: 10px;
+}
+
+.degree {
+    margin: 0 0 6px 0;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #34495e;
+}
+
+.institution,
+.dates,
+.major {
+    margin: 2px 0;
+    color: #555;
+    font-size: 1rem;
 }
