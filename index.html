@@ -11,6 +11,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;500;700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
 
     <!-- Liên kết CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -22,7 +24,7 @@
 <body>
     <header>
         <div class="icon-top-bar">
-            <p id="welcome-text">Hello! Welcome to my personal Website.</p>
+            <p id="welcome-text">Hello, and welcome to my personal website!</p>
             <a href="https://github.com/quylecse" target="_blank" class="link-icons" id="icon-github"><i
                     class="fab fa-github"></i></a>
             <a href="https://www.linkedin.com/in/quylecse/" target="_blank" class="link-icons" id="icon-linkedin"><i
@@ -35,18 +37,124 @@
         <nav><a href="" class="nav-buttons" id="home-button">Home</a>
             <a href="" class="nav-buttons" id="nav-button2">Projects</a>
             <a href="" class="nav-buttons" id="nav-button3">Contact</a>
-            <a href="" id="resume">Resume</a>
         </nav>
+        <p id="logo">Q.</p>
     </header>
 
     <main>
-        <section class="hero">
-            <p class="hero-text" id="hero-text1">Hi, I'm Phu Quy Le</p><br>
-            <p class="hero-text" id="hero-text2">A Computer Science Engineer,</p> <br>
-            <p class="hero-text" id="hero-text3">ex-civil engineer</p> <br>
+        <section class="hero" id="hero">
+            <div class="hero-content">
+                <!-- <img id="avatar" src="./assets/images/avatar.jpg" alt="avatar image" class="hero-avatar"> -->
+                <div class="hero-avatar"></div>
+                <div class="hero-text-content">
+                    <h1 class="hero-title">Hi, I'm Phu Quy Le</h1>
+                    <h2 class="hero-subtitle">A Computer Science Engineer,</h2>
+                    <p class="hero-tagline">ex-civil engineer</p>
 
-            <img id="avatar" src="./assets/images/avatar.jpg" alt="avatar image">
+                    <div class="hero-buttons">
+                        <a href="#cv" class="btn">Download CV</a>
+                        <a href="#contact" class="btn btn-outline">Let's Connect</a>
+                    </div>
+                </div>
+            </div>
         </section>
+
+        <section id="about-me" class="about-section">
+            <div class="container">
+                <h2 class="section-title">Let's create something amazing.</h2>
+                <p class="about-description">
+                    With a strong foundation in computer science and a passion for continuous learning, I specialize in
+                    creating efficient and impactful digital products.</p>
+                <div class="work-field">
+                    <div class="work-column">
+                        <h3>Software Development</h3>
+                    </div>
+                    <div class="work-column" id="wc-1">
+                        <h3>System & Network Administration</h3>
+                    </div>
+                    <div class="work-column">
+                        <h3>Database & Data Management</h3>
+                    </div>
+                    <div class="work-column">
+                        <h3>Mobile Development</h3>
+                    </div>
+                    <div class="work-column">
+                        <h3>UI/UX Design</h3>
+                    </div>
+                    <div class="work-column">
+                        <h3>Cybersecurity</h3>
+                    </div>
+                    <div class="work-column">
+                        <h3>Project & Product Management</h3>
+                    </div>
+                    <div class="work-column">
+                        <h3>System Architecture & Solution Design</h3>
+                    </div>
+
+                </div>
+            </div>
+            <section id="tech-stack">
+                <h2 class="section-title">My Tech Stack</h2>
+                <div class="tech-columns">
+
+                    <!-- Front-end -->
+                    <div class="tech-group">
+                        <h3>Front-End</h3>
+                        <div class="icon-group">
+                            <i class="devicon-html5-plain colored" title="HTML5"></i>
+                            <i class="devicon-css3-plain colored" title="CSS3"></i>
+                            <i class="devicon-javascript-plain colored" title="JavaScript"></i>
+                            <i class="devicon-react-original colored" title="React"></i>
+                            <img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" alt="Next.js" title="Next.js"
+                                class="nextjs-icon" />
+                        </div>
+                    </div>
+
+                    <!-- Back-end -->
+                    <div class="tech-group">
+                        <h3>Back-End</h3>
+                        <div class="icon-group">
+                            <i class="devicon-java-plain colored" title="Java"></i>
+                            <i class="devicon-nodejs-plain colored" title="Node.js"></i>
+                            <i class="devicon-python-plain colored" title="Python"></i>
+                            <i class="devicon-c-plain colored" title="C"></i>
+                            <i class="devicon-cplusplus-plain colored" title="C++"></i>
+                            <i class="devicon-postgresql-plain colored" title="PostgreSQL"></i>
+                            <i class="devicon-mysql-plain colored" title="SQL (MySQL)"></i>
+                            <div class="icon-group">
+                                <!-- Các icon khác ... -->
+                                <img src="https://spring.io/images/spring-logo-2020.svg" alt="Spring" title="Spring"
+                                    class="custom-icon" />
+                                <div class="icon-group">
+                                    <!-- các icon khác -->
+                                    <img src="https://spring.io/images/spring-boot-logo.svg" alt="Spring Boot"
+                                        title="Spring Boot" class="custom-icon" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- DevOps / Tools -->
+                    <div class="tech-group">
+                        <h3>DevOps / Tools</h3>
+                        <div class="icon-group">
+                            <i class="devicon-docker-plain colored" title="Docker"></i>
+                            <i class="devicon-git-plain colored" title="Git"></i>
+                            <i class="devicon-github-original colored" title="GitHub"></i>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+            </section>
+            </div>
+            <button>Explore My Projects</button>
+
+        </section>
+
+
+
+
 
     </main>
 
