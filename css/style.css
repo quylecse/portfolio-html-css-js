@@ -191,11 +191,12 @@ main {
     align-items: stretch;
 }
 
-.work-column {
-    background-color: rgba(89, 112, 112, 0.205);
+.work-card {
+    background-color: var(--color-secondary);
     padding: 20px;
     border-radius: 10px;
     height: 100px;
+    color: white;
 
     display: flex;
     justify-content: center;
@@ -204,13 +205,8 @@ main {
     transition: background-color 0.3s ease;
 }
 
-.work-column:hover {
-    background-color: rgba(89, 112, 112, 0.558);
-
-}
-
 #tech-stack {
-    padding: 40px 20px;
+    /* padding: 40px 20px; */
     text-align: center;
 }
 
@@ -243,7 +239,7 @@ main {
 .tech-group h3 {
     font-size: 1.4rem;
     margin-bottom: 15px;
-    color: #333;
+    color: var(--color-secondary);
 }
 
 .icon-group {
@@ -260,4 +256,23 @@ main {
     height: 56px;
     margin: 0 8px;
     cursor: pointer;
+}
+
+.to-projects {
+    background-color: var(--color-accent);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1.5em;
+    font-family: var(--font-heading);
+    margin-top: 35px;
+}
+
+.to-projects:hover {
+    background-color: var(--color-accent-dark);
+    /* hoặc một màu đậm hơn */
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
 }
