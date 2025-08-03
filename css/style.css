@@ -347,7 +347,7 @@ main {
 .timeline {
     margin: 0 auto;
     padding: 25px;
-    max-width: 90vw;
+    max-width: 70vw;
     width: 100%;
     /* height: 100vh; */
     display: grid;
