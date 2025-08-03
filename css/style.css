@@ -334,59 +334,107 @@ main {
     padding: 2vh 10vw;
 }
 
-.education-container {
-    max-width: 700px;
-    margin: 40px auto;
-    padding: 0 20px;
-    font-family: Arial, sans-serif;
-    color: #222;
-}
 
-.edu-section {
+
+.journey-title {
     font-size: 2.5rem;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin: 50px 0 30px 0;
     text-align: center;
-    color: #2c3e50;
 }
 
-.education-timeline {
-    border-left: 3px solid #3498db;
-    padding-left: 25px;
+
+.timeline {
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 90vw;
+    width: 100%;
+    /* height: 100vh; */
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+
 }
 
-.timeline-item {
+.timeline-header-work,
+.timeline-header-edu {
+    font-size: 1.3em;
+    color: rgb(0, 0, 0);
+    /* chữ dễ nhìn hơn trên nền màu */
+    padding: 5px 15px;
+    /* tạo khoảng đệm */
+    border-radius: 8px;
+    /* bo góc đẹp hơn */
+}
+
+.timeline-header-work {
+    text-align: right;
+    margin: 0 20px 20px 0;
+    background-image: linear-gradient(90deg, var(--color-base), #ff882d9e);
+
+}
+
+.timeline-header-edu {
+    text-align: left;
+    margin: 0 0 20px 20px;
+    background-image: linear-gradient(90deg, #ff882d9e, var(--color-base));
+
+}
+
+.timeline-middle {
     position: relative;
-    margin-bottom: 35px;
+    background-color: var(--color-accent-dark);
+
 }
 
 .timeline-dot {
     position: absolute;
-    left: -12px;
-    top: 5px;
-    width: 18px;
-    height: 18px;
-    background-color: #3498db;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: var(--color-accent-dark);
     border-radius: 50%;
-    border: 3px solid white;
-    box-shadow: 0 0 6px rgba(52, 152, 219, 0.6);
+
+}
+
+.timeline-component {
+    margin: 0 20px 20px 20px;
+
+}
+
+.timeline-date-right {
+    text-align: right;
+    font-weight: bold;
+}
+
+.timeline-date-left,
+.timeline-header-edu {
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.timeline-component-bg {
+    padding: 1.5em;
+    background-color: rgba(177, 177, 177, 0.215);
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.2);
+    border-radius: 25px;
+    height: 80%;
+    margin: 20px;
+
+
 }
 
 .timeline-content {
-    padding-left: 10px;
+    margin: 0.5em 0;
 }
 
-.degree {
-    margin: 0 0 6px 0;
-    font-size: 1.3rem;
-    font-weight: 700;
-    color: #34495e;
+.timeline-dot-bottom {
+    top: initial;
+    bottom: 0;
 }
 
-.institution,
-.dates,
-.major {
-    margin: 2px 0;
-    color: #555;
-    font-size: 1rem;
+.timeline-middle-last {
+    background-color: var(--color-body);
 }
