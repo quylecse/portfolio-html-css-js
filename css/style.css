@@ -1,6 +1,6 @@
 .icon-top-bar {
     width: 100%;
-    height: 46px;
+    height: 3rem;
     background-color: var(--color-secondary);
     display: flex;
     justify-content: flex-end;
@@ -10,17 +10,17 @@
 
 .link-icons {
     color: var(--color-text-light);
-    font-size: 24px;
-    margin: 0 10px;
+    font-size: 1.5rem;
+    margin: 0 1rem;
 
 }
 
 #icon-instagram {
-    margin-right: 20px;
+    margin-right: 2rem;
 }
 
 nav {
-    height: 54px;
+    height: 3rem;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -28,7 +28,7 @@ nav {
 }
 
 .nav-buttons {
-    padding: 10px 50px;
+    padding: 1rem 3rem;
     font-size: 1.5em;
     cursor: pointer;
     font-weight: var(--font-weight-heading);
@@ -44,17 +44,17 @@ nav {
 
 #logo {
     color: black;
-    font-size: 50px;
+    font-size: 3rem;
     position: absolute;
-    top: 10%;
-    left: 2vw;
+    top: 3.5rem;
+    left: 2rem;
 }
 
 
 
 #welcome-text {
     margin-right: auto;
-    margin-left: 20px;
+    margin-left: 2rem;
 }
 
 main {
@@ -73,18 +73,15 @@ main {
     justify-content: center;
     align-items: center;
     background-color: var(--color-secondary);
-    margin-top: 7vh;
-    padding: 0 20px;
-    width: 100%;
-    max-width: 100vw;
+    margin-top: 2%;
+    min-width: 100%;
     min-height: 100vh;
 }
 
 .hero-content {
     display: flex;
     align-items: center;
-    gap: 40px;
-    max-width: 1200px;
+    gap: 5rem;
 }
 
 .hero-avatar {
@@ -103,38 +100,38 @@ main {
 }
 
 .hero-title {
-    font-size: 3em;
-    margin-bottom: 10px;
+    font-size: 3rem;
+    margin-bottom: 1rem;
     font-family: var(--font-heading);
 }
 
 .hero-subtitle {
     font-size: 2em;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
     font-weight: 400;
 }
 
 .hero-tagline {
-    font-size: 1.2em;
-    margin-bottom: 30px;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
     font-style: italic;
 }
 
 .hero-buttons {
     display: flex;
-    gap: 20px;
+    gap: 1rem;
 }
 
 .btn {
-    padding: 12px 24px;
+    padding: 1rem 1.5rem;
     background-color: var(--color-accent);
     color: var(--color-text-light);
-    border-radius: 8px;
+    border-radius: 1rem;
     text-decoration: none;
     text-transform: uppercase;
     transition: background-color 0.3s ease;
     font-family: monospace;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .btn:hover {
@@ -154,11 +151,10 @@ main {
 }
 
 .about-section {
-    min-height: 100vh;
     flex-direction: column;
     align-items: center;
     margin: auto;
-    padding: 10vw;
+    padding: 5rem;
     color: var(--color-text-dark);
     font-family: var(--font-body);
     text-align: center;
@@ -168,32 +164,30 @@ main {
 .section-title {
     font-family: var(--font-heading);
     font-weight: var(--font-weight-bold);
-    font-size: 3em;
+    font-size: 3rem;
     color: var(--color-secondary);
-    /* 30%: màu phụ */
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 .about-description {
-    font-size: 1.5em;
-    line-height: 1.6;
+    font-size: 1.5rem;
+    line-height: 2rem;
     color: var(--color-text-dark);
-    margin: 10vh;
+    margin: 3rem 0;
 
 }
 
 .work-field {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    max-width: 1000px;
-    margin: 0 auto;
+    gap: 2rem;
+    margin: auto;
     align-items: stretch;
 }
 
 .work-card {
     background-color: var(--color-secondary);
-    padding: 20px;
+    padding: 0.5rem;
     border-radius: 10px;
     height: 100px;
     color: white;
@@ -212,23 +206,21 @@ main {
 
 .section-title {
     font-size: 2rem;
-    margin-bottom: 40px;
+    margin-bottom: 2rem;
 }
 
 .tech-columns {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px;
+    gap: 2rem;
 }
 
 .tech-group {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    max-width: 600px;
-    padding-bottom: 20px;
+    padding-bottom: 2rem;
     border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -246,26 +238,24 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 2rem;
 }
 
 .icon-group i,
 .icon-group img.nextjs-icon {
-    font-size: 56px;
-    width: 56px;
-    height: 56px;
-    margin: 0 8px;
+    font-size: 4rem;
+    margin: 0 0.5rem;
     cursor: pointer;
 }
 
 .to-projects {
     background-color: var(--color-accent);
     color: white;
-    padding: 10px 20px;
+    padding: 1rem 2rem;
     border-radius: 20px;
     font-size: 1.5em;
     font-family: var(--font-heading);
-    margin-top: 35px;
+    margin: 2rem 0;
 }
 
 .to-projects:hover {
@@ -277,18 +267,17 @@ main {
 #education {
     display: flex;
     flex-direction: column;
-    /* xếp dọc */
     align-items: center;
-    /* căn giữa ngang */
     justify-content: center;
 
 }
 
 
 .edu-photo {
-    width: 100vw;
-    height: 100vh;
-    margin-top: 100px;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    margin-top: 2rem;
     background-image: url(../assets/images/education.jpg);
     background-size: cover;
     position: relative;
@@ -308,30 +297,29 @@ main {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.4);
-    /* Tạo lớp phủ màu đen với độ trong suốt 50% */
     border-radius: 10px;
     z-index: 1;
-    /* Đảm bảo lớp phủ nằm trên ảnh */
 }
 
 .edu-photo>* {
 
     position: relative;
     z-index: 2;
-    padding: 20px;
+    padding: 1rem;
+    line-height: 2rem;
 }
 
 .edu-photo-title {
-    font-size: 3em;
+    font-size: 3rem;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
 
 }
 
 .education-intro {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     text-align: center;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
-    padding: 2vh 10vw;
+    padding: 2rem;
 }
 
 
@@ -339,17 +327,14 @@ main {
 .journey-title {
     font-size: 2.5rem;
     font-weight: 700;
-    margin: 50px 0 30px 0;
+    margin: 3rem 0 1.5rem 0;
     text-align: center;
 }
 
 
 .timeline {
     margin: 0 auto;
-    padding: 25px;
-    max-width: 70vw;
-    width: 100%;
-    /* height: 100vh; */
+    max-width: 70%;
     display: grid;
     grid-template-columns: 1fr 3px 1fr;
 
@@ -357,25 +342,22 @@ main {
 
 .timeline-header-work,
 .timeline-header-edu {
-    font-size: 1.3em;
+    font-size: 1.3rem;
     color: rgb(0, 0, 0);
-    /* chữ dễ nhìn hơn trên nền màu */
     padding: 5px 15px;
-    /* tạo khoảng đệm */
     border-radius: 8px;
-    /* bo góc đẹp hơn */
 }
 
 .timeline-header-work {
     text-align: right;
-    margin: 0 20px 20px 0;
+    margin: 0 1rem 1rem 0;
     background-image: linear-gradient(90deg, var(--color-base), #ff882d9e);
 
 }
 
 .timeline-header-edu {
     text-align: left;
-    margin: 0 0 20px 20px;
+    margin: 0 0 1rem 1rem;
     background-image: linear-gradient(90deg, #ff882d9e, var(--color-base));
 
 }
@@ -391,15 +373,15 @@ main {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 15px;
-    height: 15px;
+    width: 1rem;
+    height: 1rem;
     background: var(--color-accent-dark);
     border-radius: 50%;
 
 }
 
 .timeline-component {
-    margin: 0 20px 20px 20px;
+    margin: 0 1.25rem 1.25rem 1.25rem;
 
 }
 
@@ -416,18 +398,18 @@ main {
 }
 
 .timeline-component-bg {
-    padding: 1.5em;
+    padding: 1.5rem;
     background-color: rgba(177, 177, 177, 0.215);
     box-shadow: 0 0 5px rgb(0, 0, 0, 0.2);
-    border-radius: 25px;
-    height: 80%;
-    margin: 20px;
+    border-radius: 1.25rem;
+    margin: 1.25rem;
 
 
 }
 
 .timeline-content {
-    margin: 0.5em 0;
+    margin: 0.5rem 0;
+    font-size: 1rem;
 }
 
 .timeline-dot-bottom {
@@ -439,27 +421,32 @@ main {
     background-color: var(--color-body);
 }
 
+.personality {
+    width: 100%;
+}
+
 .personality-container {
     position: relative;
-    width: 100vw;
-    height: 400px;
+    min-height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: var(--color-secondary);
-    border-radius: 50px;
+    border-radius: 5rem;
     border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
 
 }
 
 .personality-content {
     position: absolute;
+    padding: 2rem 1rem;
     width: 80%;
-    right: 10px;
-    font-size: 1.5rem;
+    right: 1rem;
+    font-size: 0.3rem;
     font-family: Arial, Helvetica, sans-serif, 'Arial Narrow', Arial, sans-serif;
-    line-height: 1.65;
-    text-align: left;
+    line-height: 1.5rem;
+    text-align: justify;
     color: white;
     font-style: italic;
 }
@@ -467,117 +454,71 @@ main {
 .personality-content strong {
     font-weight: 700;
     font-family: 'Lora', serif;
-    /* đảm bảo cùng font */
     /* color: rgb(255, 153, 0); */
     text-shadow: black 2px;
+
 }
 
 .hashtags {
     display: flex;
     flex-wrap: wrap;
     /* Added this for responsiveness */
-    gap: 10px;
-    margin-top: 20px;
-    padding: 10px;
-    /* background-color: rgba(255, 255, 255, 0.5); Use rgba() for transparency */
-    border-radius: 15px;
+    gap: 1rem;
+    margin-top: 1.25rem;
+    padding: 1rem;
+    border-radius: 1rem;
 }
+
 
 .hashtags span {
     /* Added styles for individual hashtag boxes */
     background-color: #f0f0f0;
-    padding: 5px 10px;
-    border-radius: 15px;
-    font-size: 0.9em;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
     color: var(--color-accent-dark);
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    cursor: pointer;
 }
 
-footer {
-    /* Định dạng tổng thể */
-    width: 100%;
-    /* Sử dụng 100% thay vì 100vw để tránh thanh cuộn ngang */
-    padding: 40px 20px;
-    margin-top: 200px;
 
-    /* Căn giữa nội dung */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    /* Thiết kế trực quan */
-    background-color: #333;
-    /* Màu nền tối để tạo sự tương phản */
-    color: #f4f4f4;
-    /* Chữ màu sáng */
-    border-top: 5px solid #000;
-    /* Đường viền trên, sử dụng "solid" */
-    text-align: center;
-}
-
-/* Kiểu chữ cho các liên kết */
-footer a {
-    color: #fff;
-    text-decoration: none;
-    /* Bỏ gạch chân mặc định */
-    margin: 0 15px;
-    /* Thêm khoảng cách giữa các liên kết */
-    font-size: 1em;
-    transition: color 0.3s ease;
-}
-
-/* Hiệu ứng khi di chuột qua liên kết */
-footer a:hover {
-    color: #007bff;
-    /* Thay đổi màu khi hover */
-}
-
-/* Kiểu chữ cho đoạn bản quyền */
-footer p {
-    margin-top: 20px;
-    font-size: 0.9em;
-}
 
 .contact-form-container {
-    width: 70vw;
-    height: 100vh;
+    width: 100%;
     display: flex;
+    margin: auto;
+    margin-top: 0rem;
     align-items: center;
-    justify-content: space-evenly;
-    margin-top: 200px;
     background-color: rgba(255, 255, 255, 0.5);
 
 }
 
 .contact-left {
     display: flex;
+    margin: auto;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
 }
 
 .contact-left>* {
-    margin-top: 20px;
+    margin-top: 1rem;
+    margin: auto;
 }
 
 .contact-left-title {
-    font-size: 3em;
+    font-size: 2rem;
 
 }
 
 .contact-inputs {
     width: 100%;
-    border-radius: 15px;
-    font-size: 1.1em;
-    padding: 10px;
+    border-radius: 1rem;
+    font-size: 1rem;
+    padding: 1rem;
     font-family: var(--font-heading);
-
 }
 
 .contact-inputs-message {
-    padding: 15px;
-    height: 300px;
+    padding: 1rem;
+    height: 20rem;
 }
 
 .contact-inputs:focus {
@@ -585,26 +526,279 @@ footer p {
 }
 
 .contact-inputs::placeholder {
-    font-size: 1.1em;
+    font-size: 1rem;
 }
 
 .contact-left button {
-    margin-top: 20px;
-    padding: 10px 25px;
-    font-size: 1.2em;
-    border-radius: 10px;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 1rem;
     background-color: var(--color-accent);
     color: white;
-    margin-right: 0;
     border: none;
 }
 
 .contact-left button:hover,
 .contact-left button:focus {
     background-color: var(--color-accent-dark);
-    /* Màu nền đậm hơn một chút (ví dụ) */
     transform: translateY(-2px);
-    /* Nâng nút lên một chút */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-    /* Thêm đổ bóng nhẹ */
+}
+
+
+footer {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #333;
+    color: #f4f4f4;
+    border-top: 5px solid #000;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1em;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #007bff;
+}
+
+footer p {
+    font-size: 0.9em;
+}
+
+/* ==== MEDIA QUERY RESPONSIVE ==== */
+
+@media (max-width: 767px) {
+
+    /* Nav */
+    .nav-buttons {
+        padding: 0.5rem 1.25rem;
+        font-size: 1.2em;
+        text-decoration: none;
+    }
+
+    nav {
+        height: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    .icon-top-bar {
+        height: 2.8rem;
+    }
+
+    #welcome-text {
+        display: none;
+    }
+
+    /* Hero section */
+    .hero {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--color-secondary);
+        margin-top: 0;
+        padding: 0;
+        width: 100%;
+        max-width: 100%;
+        min-height: 35rem;
+    }
+
+    .hero-avatar {
+        width: 15rem;
+        height: 15rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .btn {
+        padding: 0.75rem;
+        width: fit-content;
+        font-family: monospace;
+        margin: auto;
+    }
+
+    .btn-outline {
+        display: none;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.25rem;
+    }
+
+    .hero-title {
+        font-size: 2em;
+    }
+
+    .hero-subtitle {
+        font-size: 1.3em;
+    }
+
+    .hero-tagline {
+        font-size: 1em;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        padding: 0;
+        gap: 0.625rem;
+    }
+
+    /* About section */
+    .about-section {
+        padding: 2.5rem;
+        margin-bottom: 1.25rem;
+        min-height: 50rem;
+    }
+
+    .section-title {
+        font-size: 2em;
+        margin-bottom: 1.25rem;
+    }
+
+    .about-description {
+        font-size: 1.2em;
+        margin: 1.25rem 0;
+    }
+
+    .edu-photo {
+        height: 40rem;
+        padding: 0.625rem;
+        width: 100%;
+        margin-top: 3.125rem;
+    }
+
+    .edu-photo-title {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .education-intro {
+        font-size: 1.2em;
+        padding: 0.625rem 3.125rem;
+    }
+
+    /* Work section */
+    .timeline-header {
+        display: none;
+    }
+
+    .work-field {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Tech columns */
+    .tech-columns {
+        gap: 1.25rem;
+    }
+
+    .tech-group h3 {
+        font-size: 1.2rem;
+    }
+
+    .icon-group i,
+    .icon-group img.nextjs-icon {
+        font-size: 2.5rem;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    /* Timeline */
+    .timeline {
+        display: block;
+        padding: 0;
+    }
+
+    .timeline-header-work,
+    .timeline-header-edu,
+    .timeline-component,
+    .timeline-date-left,
+    .timeline-date-right {
+        text-align: center !important;
+        margin: 0.625rem 0;
+    }
+
+    .timeline-middle,
+    .timeline-dot,
+    .timeline-dot-bottom {
+        display: none;
+    }
+
+    .timeline-component {
+        width: auto;
+    }
+
+    .timeline-desc {
+        line-height: 1.5em;
+        font-size: 1em;
+    }
+
+    /* Personality section */
+    .personality-container {
+        flex-direction: column;
+        height: 40rem;
+        padding: 1.25rem;
+        margin-top: 0;
+        border-radius: 0;
+    }
+
+    .personality-content {
+        font-size: 1.2rem;
+        width: 100%;
+        text-align: center;
+        right: 0;
+    }
+
+    /* Hashtags */
+    .hashtags {
+        justify-content: center;
+    }
+
+    .hashtags span {
+        font-size: 0.8em;
+    }
+
+    /* Contact form */
+    .contact-form-container {
+        flex-direction: column;
+        height: auto;
+        padding: 0.625rem;
+        width: 90%;
+        margin: 1.25rem 0;
+    }
+
+    .contact-left-title {
+        font-size: 1.5em;
+    }
+
+    .contact-inputs-message {
+        height: 12.5rem;
+    }
+
+    .contact-inputs {
+        margin: 0.5rem 0;
+    }
+
+    .contact-right {
+        display: flex;
+        margin: 1rem 0 1rem 0;
+
+    }
 }
