@@ -495,46 +495,116 @@ main {
 }
 
 footer {
+    /* Định dạng tổng thể */
+    width: 100%;
+    /* Sử dụng 100% thay vì 100vw để tránh thanh cuộn ngang */
+    padding: 40px 20px;
+    margin-top: 200px;
+
+    /* Căn giữa nội dung */
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+
+    /* Thiết kế trực quan */
+    background-color: #333;
+    /* Màu nền tối để tạo sự tương phản */
+    color: #f4f4f4;
+    /* Chữ màu sáng */
+    border-top: 5px solid #000;
+    /* Đường viền trên, sử dụng "solid" */
     text-align: center;
-
-    width: 100%;
-    padding: 20px;
-    margin-top: 100px;
-
-    background-color: #f4f4f4;
-    /* Màu nền nhẹ, có thể thay đổi để phù hợp với theme */
-    border-top: 3px solid #e0e0e0;
-    /* Đường viền trên tinh tế */
-    color: #666;
-    /* Màu chữ xám để dễ đọc */
-    font-family: 'Montserrat', sans-serif;
 }
 
-.footer-links {
-    margin-bottom: 10px;
-    display: flex;
-    gap: 20px;
-    /* Khoảng cách giữa các liên kết */
-}
-
-.footer-links a {
+/* Kiểu chữ cho các liên kết */
+footer a {
+    color: #fff;
     text-decoration: none;
-    color: #333;
-    font-weight: 500;
+    /* Bỏ gạch chân mặc định */
+    margin: 0 15px;
+    /* Thêm khoảng cách giữa các liên kết */
+    font-size: 1em;
     transition: color 0.3s ease;
 }
 
-.footer-links a:hover {
+/* Hiệu ứng khi di chuột qua liên kết */
+footer a:hover {
     color: #007bff;
-    /* Hiệu ứng hover nổi bật */
+    /* Thay đổi màu khi hover */
 }
 
+/* Kiểu chữ cho đoạn bản quyền */
 footer p {
+    margin-top: 20px;
     font-size: 0.9em;
-    margin: 0;
-    /* Loại bỏ margin mặc định của thẻ p */
+}
+
+.contact-form-container {
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 200px;
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.contact-left>* {
+    margin-top: 20px;
+}
+
+.contact-left-title {
+    font-size: 3em;
+
+}
+
+.contact-inputs {
+    width: 100%;
+    border-radius: 15px;
+    font-size: 1.1em;
+    padding: 10px;
+    font-family: var(--font-heading);
+
+}
+
+.contact-inputs-message {
+    padding: 15px;
+    height: 300px;
+}
+
+.contact-inputs:focus {
+    border: 2px solid #0056b1;
+}
+
+.contact-inputs::placeholder {
+    font-size: 1.1em;
+}
+
+.contact-left button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    background-color: var(--color-accent);
+    color: white;
+    margin-right: 0;
+    border: none;
+}
+
+.contact-left button:hover,
+.contact-left button:focus {
+    background-color: var(--color-accent-dark);
+    /* Màu nền đậm hơn một chút (ví dụ) */
+    transform: translateY(-2px);
+    /* Nâng nút lên một chút */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    /* Thêm đổ bóng nhẹ */
 }
