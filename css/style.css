@@ -493,3 +493,48 @@ main {
     transition: background-color 0.3s ease, transform 0.3s ease;
     cursor: pointer;
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width: 100%;
+    padding: 20px;
+    margin-top: 100px;
+
+    background-color: #f4f4f4;
+    /* Màu nền nhẹ, có thể thay đổi để phù hợp với theme */
+    border-top: 3px solid #e0e0e0;
+    /* Đường viền trên tinh tế */
+    color: #666;
+    /* Màu chữ xám để dễ đọc */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 20px;
+    /* Khoảng cách giữa các liên kết */
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #007bff;
+    /* Hiệu ứng hover nổi bật */
+}
+
+footer p {
+    font-size: 0.9em;
+    margin: 0;
+    /* Loại bỏ margin mặc định của thẻ p */
+}
