@@ -3,7 +3,6 @@ header {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
 }
 
 .icon-top-bar {
@@ -50,7 +49,6 @@ nav {
 
 .nav-buttons {
     padding: 1rem 3rem;
-    overflow: hidden;
     font-size: 2em;
     cursor: pointer;
     font-weight: var(--font-weight-heading);
