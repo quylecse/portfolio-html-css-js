@@ -775,12 +775,16 @@ footer p {
         font-size: 0.8em;
     }
 
+    .contact-form {
+        max-width: 100%;
+    }
+
     /* Contact form */
     .contact-form-container {
+        max-width: 100%;
         flex-direction: column;
         height: auto;
         padding: 0.625rem;
-        width: 90%;
         margin: 1.25rem 0;
     }
 
@@ -798,7 +802,13 @@ footer p {
 
     .contact-right {
         display: flex;
-        margin: 1rem 0 1rem 0;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .contact-right img {
+        width: 50%;
+        margin-top: 1rem;
 
     }
 }
