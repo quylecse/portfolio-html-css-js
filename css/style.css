@@ -578,10 +578,17 @@ footer p {
 /* ==== MEDIA QUERY RESPONSIVE ==== */
 
 @media (max-width: 767px) {
+    .logo-nav-container {
+        flex-direction: column;
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
 
     /* Nav */
     .nav-buttons {
-        padding: 0.5rem 1.25rem;
+        padding: 0.5rem 1rem;
         font-size: 1.2em;
         text-decoration: none;
     }
@@ -620,14 +627,6 @@ footer p {
     .hero-avatar {
         width: 15rem;
         height: 15rem;
-        margin-bottom: 1.25rem;
-    }
-
-    .btn {
-        padding: 0.75rem;
-        width: fit-content;
-        font-family: monospace;
-        margin: auto;
     }
 
     .btn-outline {
@@ -637,7 +636,7 @@ footer p {
     .hero-content {
         flex-direction: column;
         text-align: center;
-        gap: 1.25rem;
+        gap: 1rem;
     }
 
     .hero-title {
@@ -652,22 +651,24 @@ footer p {
         font-size: 1em;
     }
 
-    .hero-buttons {
-        flex-direction: column;
-        padding: 0;
-        gap: 0.625rem;
+    .btn {
+        padding: 0.75rem;
+        width: fit-content;
+        font-family: monospace;
+        margin: auto;
+        font-size: 1rem;
     }
 
     /* About section */
     .about-section {
+        margin: 0;
         padding: 2.5rem;
-        margin-bottom: 1.25rem;
         min-height: 50rem;
     }
 
     .section-title {
         font-size: 2em;
-        margin-bottom: 1.25rem;
+        margin: 1rem 0 0 0;
     }
 
     .about-description {
@@ -675,11 +676,15 @@ footer p {
         margin: 1.25rem 0;
     }
 
+    #education {
+        margin-top: 1rem;
+    }
+
     .edu-photo {
         height: 40rem;
         padding: 0.625rem;
         width: 100%;
-        margin-top: 3.125rem;
+        margin-top: 1rem;
     }
 
     .edu-photo-title {
@@ -706,15 +711,20 @@ footer p {
         gap: 1.25rem;
     }
 
+    .tech-group {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
     .tech-group h3 {
         font-size: 1.2rem;
     }
 
     .icon-group i,
     .icon-group img.nextjs-icon {
-        font-size: 2.5rem;
-        width: 2.5rem;
-        height: 2.5rem;
+        font-size: 2rem;
+        /* width: 2.5rem;
+        height: 2.5rem; */
     }
 
     /* Timeline */
@@ -804,7 +814,7 @@ footer p {
     }
 
     .contact-right img {
-        width: 50%;
+        max-width: 50%;
         margin-top: 1rem;
 
     }
